@@ -1,7 +1,7 @@
 def my_collect(collection)
   i = 0
   new_collection = Array.new
-  while i < array.length
+  while i < collection.length
     new_collection << yield(collection[i])
     i += 1
   end
