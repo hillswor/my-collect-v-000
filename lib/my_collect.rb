@@ -3,6 +3,7 @@ def my_collect(array)
   collection = Array.new
   if i < array.length
     collection << yield(array[i].upcase)
+    i += 1
   end
     collection
 end
